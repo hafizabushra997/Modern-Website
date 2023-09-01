@@ -1,0 +1,174 @@
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+ 
+  .navToggle {
+    display: block;
+    margin-right: 20px;
+  }
+  .mainNav{
+    overflow: initial;
+  }
+  .navLinks {
+    position: absolute;
+    top: 100%;
+    left: -100%;
+    background-color:#ebf2fa;
+    width: 40%;
+    padding-block: 20px;
+    transition: 0.5s ease-in-out;
+  }
+  .navLinks.active{
+    left: 0;
+  }
+  .navLinks ul{
+    flex-direction: column;
+  }
+  .headerSection {
+    justify-content: center;
+    gap: 50px;
+  }
+  .rightHeader img {
+    width: 400px;
+  }
+  
+  .featuresCard img {
+    width: 50px;
+}
+  
+  .exampleArea {
+    gap: 20px;
+  }
+  .exampleCard {
+    width: calc(50% - 10px);
+  }
+  .panelContainer {
+    flex-direction: column-reverse;
+  }
+  .panelImages{
+    max-width: 470px;
+    min-width: 410px;
+  }
+  .panelDesListContainer{
+      gap: 6rem;
+        justify-content: normal;
+
+
+    }
+    .panelButtons{
+    gap: 3rem;
+    }
+  
+}
+@media screen and (max-width: 767px) {
+  .headerSection {
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .leftHeader {
+    align-items: center;
+    max-width: 100%;
+  }
+  .leftHeader h1,
+  .leftHeader p {
+    text-align: center;
+  }
+  .leftHeader .primaryButton {
+    width: 60%;
+    text-align: center;
+  }
+  .navLinks{
+    width: 50%;
+
+  }
+  .featuresCard{
+   max-width: calc(50% - 10px);
+
+  }
+  .bigFeatureContainer,#bigFeature2ndContainer{    
+    flex-direction: column;
+  
+}
+.panelImages > .img2 {
+    width: 200px;
+    height: 200px;
+}
+.panelImages > .img2 > div>img{
+      width: 260px;
+      height: 240px
+  
+}
+.panelImgDes h3{
+  font-size: 1.35rem;
+
+}
+.panelDesListContainer{
+      gap: 2rem;
+  justify-content: space-between;
+    }
+    .panelButtons{
+    gap: 2rem;
+    }
+.footerContainer .links {
+    gap: 3rem;
+    padding-inline: 1rem;
+
+}
+}
+@media screen and (max-width: 479px) {
+  :root{
+    --padding-inline-section:20px ;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+  .rightHeader img {
+    width: 300px;
+  }
+  .navLinks{
+    width: 70%;
+
+  }
+  .featuresCard{
+    min-width: 100%;
+ 
+   }
+   .featuresArea{
+    gap: 40px;
+   }
+   .exampleHeader{
+    margin-bottom: 30px;
+   }
+   .exampleCard{
+    width: 100%;
+   }
+   .panelImages > .img1 {
+    width: 95%;
+    height: 90%;
+}
+   .panelImages > .img1 > img {
+    width: 95%;
+    height: 100%;
+}
+   .panelImages > .img2 {
+    width: 100px;
+    height: 200px;
+}
+.panelImages > .img2 > div>img{
+      width: 220px;
+      height: 225px
+  
+}
+}
